@@ -1,0 +1,21 @@
+/* .tooltip {
+    display: none;
+} */
+
+.icon {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.tooltip {
+    margin-right: -40px;
+    opacity: 0;
+    background: #000;
+    transition: 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.icon:hover .tooltip {
+    margin-right: -47px;
+    opacity: 1;
+}
