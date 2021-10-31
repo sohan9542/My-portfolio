@@ -1,7 +1,5 @@
 import {
-  faBriefcase,
-  faComments,
-  faEnvelopeOpen,
+  faBriefcase, faEnvelopeOpen,
   faHome,
   faUser
 } from "@fortawesome/free-solid-svg-icons";
@@ -64,14 +62,14 @@ const Header = () => {
           <NavLink
             to="/contact"
             exact
-            className="text-white activeme px-4 py-3 text-lg rounded-full hover:text-white"
+            className="text-white activeme px-4 py-3 text-lg rounded-full hover:text-white" 
             activeClassName="bg-sc"
           >
             {" "}
             <FontAwesomeIcon icon={faEnvelopeOpen} />
           </NavLink>
         </div>
-        <div className="icon blog">
+        {/* <div className="icon blog">
           <div className="bg-sc w-36 tooltip p-3 text-lg rounded-full">
             Blog
           </div>
@@ -84,7 +82,7 @@ const Header = () => {
             {" "}
             <FontAwesomeIcon icon={faComments} />
           </NavLink>
-        </div>
+        </div> */}
       </div>
       <div className=" fixed z-50 grid grid-cols-5 lg:hidden items-center w-full bottom-0 p-3 bg-tr left-0">
         <div className="flex items-center justify-center">
@@ -133,7 +131,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faEnvelopeOpen} />
           </NavLink>
         </div>
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
         {" "}
           <NavLink
             to="/blog"
@@ -144,7 +142,7 @@ const Header = () => {
             {" "}
             <FontAwesomeIcon icon={faComments} />
           </NavLink>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,0 +1,32 @@
+.bar {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.bar h3 {
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.bar-circle {
+    display: block;
+    margin: 0.7em auto;
+}
+
+h3 {
+    display: inline-block;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#names {
+    text-align: center;
+}
+
+.bactive {
+    border-bottom: 5px solid #ffb400;
+    font-weight: 800;
+}

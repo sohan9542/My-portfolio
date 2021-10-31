@@ -6,7 +6,8 @@ module.exports = {
             colors: {
                 pr: '#111111',
                 sc: '#ffb400',
-                tr: '#2b2a2a'
+                tr: '#2b2a2a',
+
             }
         },
     },
