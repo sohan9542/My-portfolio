@@ -84,7 +84,7 @@ const Header = () => {
           </NavLink>
         </div> */}
       </div>
-      <div className=" fixed z-50 grid grid-cols-5 lg:hidden items-center w-full bottom-0 p-3 bg-tr left-0">
+      <div className=" fixed z-50 grid grid-cols-4 lg:hidden items-center justify-center w-full bottom-0 p-3 bg-tr left-0">
         <div className="flex items-center justify-center">
           {" "}
           <NavLink
